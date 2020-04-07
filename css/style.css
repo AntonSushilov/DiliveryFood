@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;/* максимальная ширина */
+    margin: auto;/* отступы по краям */
+}
+.header {
+    display: flex;/* расположить элементы в строку */
+    align-items: center;/* элементы относительно друг друга по центру */
+    justify-content: space-between;/* расположить элементы на равном расстоянии друг от друга, крайние элементы прилегают к краям блока*/
+}
+
+.search-input {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    height: 40px;
+    width: 690px;
+    font-size: 16px;
+    line-height: 24px;
+    background-image: url(../img/home.svg);
+    background-repeat: no-repeat;
+    background-position: left 11px center;
+    padding-left: 35px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+    border-radius: 2px;
+    color: #595959;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.button-primary{
+    background: #1890FF;
+    border: 1px solid #1890FF;
+    color: #fff;
+    margin-right: 10px;
+}
+.button-icon{
+    margin-right: 6px;
+    vertical-align: middle;
+}
